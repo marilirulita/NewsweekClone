@@ -1,5 +1,7 @@
+
 .bg-color {
-  background: orange;
+  background: #f72210;
+  color: white;
 }
 nav ul a {
   color: black;
@@ -8,5 +10,38 @@ nav ul a {
 }
 
 nav ul a:hover {
-  color:orange;
+  color: #f72210;
+}
+
+.navbar-items {
+  font-size: 15 px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.logo {
+  max-width: 350px;
+  max-height: 80px;
+  width: 210px;
+  height: 65px;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+}
+
+
+
+
+@media (min-width: 1024px) {
+
+  .logo {
+    max-width: 650px;
+    max-height: 90px;
+  }
+  
+
 }
