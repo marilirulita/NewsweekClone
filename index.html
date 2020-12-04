@@ -7,10 +7,27 @@
     <link rel="stylesheet" href="./style/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/add939e8fb.js" crossorigin="anonymous"></script>
     <title>Newsweek</title>
   </head>
   <body>
-    <header class="d-flex flex-column container-fluid">
+    <!-- this code is header in mobile -->
+    <div class="d-flex align-items-center width background">
+      <div class="d-flex justify-content-between">
+        <img class="logo" src="./images/nwlogo.png" alt="Logo">
+        <div>
+          icon
+          <button type="button" class="btn btn-warning font-weight-bold rounded-pill">SUBSCRIBE</button>
+        </div>
+      </div>
+      <div class="">
+        icon
+      </div>
+    </div>
+
+    <!-- this is normal header in desktop
+    <header class="d-flex flex-column container-fluid hidden">
       <div class="d-flex justify-content-between bg-color align-items-baseline">
         <div class="navbar-items">
           <a href="#" class="text-reset">18° Mexicali, MX</a>
@@ -49,9 +66,10 @@
         </ul>
       </nav>
     </header>
+    -->
   <!---(MAIN) FEATURED STORIES-->
 
-    <section class="col 1">
+    <section class="col 1 container-fluid sec-1">
       <h4>FEATURED STORIES</h4>
 
       <article class="feature-story col">
@@ -105,10 +123,10 @@
          </article>
        </section>
 
-       <section  class="col 2">
+       <section  class="col 2 sec-2">
          <h3>TOP STORY</h3>
          <article class="">
-           <img src="./images/sec2-img1.jpg" alt="" width="500px">
+           <img src="./images/sec2-img1.jpg" alt="" width="100%">
            <a href="#">U.S.</a>
            <a href="#"><h3>Without Another Stimulus, Economy Headed for Recession Early Next Year</h3></a>
            <p>Economists have urged lawmakers to act and pass another round of stimulus for months amid partisan gridlock.</p>

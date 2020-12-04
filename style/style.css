@@ -1,5 +1,5 @@
 
-.bg-color {
+.background {
   background: #f72210;
   color: white;
 }
@@ -18,15 +18,30 @@ nav ul a:hover {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+/* mobile stups*/
 .logo {
   max-width: 350px;
   max-height: 80px;
-  width: 210px;
-  height: 65px;
+  width: 150px;
+  height: 45px;
+}
+/*
+.background button {
+  font-size: 15px;
+}
+*/
+.hidden {
+  display: none;
+  visibility: hidden;
 }
 
-
-
+.width {
+  width: 100%;
+}
+.sec-1 img,
+.sec-1 img {
+  width: 100%;
+}
 
 
 @media (min-width: 768px) {
@@ -42,6 +57,6 @@ nav ul a:hover {
     max-width: 650px;
     max-height: 90px;
   }
-  
+
 
 }
