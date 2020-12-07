@@ -57,15 +57,14 @@ nav ul a:hover {
   color: #4e4d4d66;
   font-size: 16px;
   border-bottom: 4px solid #4e4d4d66;
-  padding: 0px 0px 11px;
+  padding: 11px 0;
 }
 
 .title2-debate {
   color: black;
   font-weight: bold;
   font-size: 17px;
-  font-family: Roboto Condensed; 
-  padding: 10px 10px 20px;
+  font-family: Roboto Condensed;
 }
 
 .author-debate {
@@ -74,8 +73,15 @@ nav ul a:hover {
   font-size: 14px;
 }
 
+.span-width {
+  width: 30px;
+  margin-top: -11px;
+  margin-bottom: -11px;
+  z-index: 10;
+}
+
 .last-title {
-  margin-bottom: 4px solid #4e4d4d66;
+  border-bottom: 4px solid #4e4d4d66;
 }
 
 
