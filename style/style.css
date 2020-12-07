@@ -51,6 +51,36 @@ nav ul a:hover {
   margin: -20px 0 0 0;
   background-color: rgba(255, 255, 255, 0.5);
 }
+
+.title-debate {
+  font-family: Roboto Condensed;
+  color: #4e4d4d66;
+  font-size: 16px;
+  border-bottom: 4px solid #4e4d4d66;
+  padding: 0px 0px 11px;
+}
+
+.title2-debate {
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: Roboto Condensed; 
+  padding: 10px 10px 20px;
+}
+
+.author-debate {
+  font-family: Roboto Condensed;
+  color: #555555;
+  font-size: 14px;
+}
+
+.last-title {
+  margin-bottom: 4px solid #4e4d4d66;
+}
+
+
+
+}
 /*
 .background button {
   font-size: 15px;
