@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="./style/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
-
     <script src="https://kit.fontawesome.com/add939e8fb.js" crossorigin="anonymous"></script>
+
+
     <title>Newsweek</title>
   </head>
   <body>
@@ -18,7 +19,7 @@
         <img class="logo" src="./images/nwlogo.png" alt="Logo">
         <div>
           icon
-          <button type="button" class="btn btn-warning font-weight-bold rounded-pill">SUBSCRIBE</button>
+          <button type="button" class="btn btn-warning font-weight-bold rounded-pill first-button">SUBSCRIBE></button>
         </div>
       </div>
       <div class="">
@@ -71,57 +72,62 @@
 
     <section class="col 1 container-fluid sec-1">
       <h4>FEATURED STORIES</h4>
+<div class="card-group">
+      <article class="card">
+        <img src="./images/coronavirus-us.jpg" class="card-img-top" alt="first img" width="350px">
+         <a href="category">U.S</a>
+               <div clas= "card-body">
+                   <h3 class="card-title"><a>U.S. Had More COVID Deaths in 1 Day Than 36 Countries' Total Deaths</a></h3>
+                    <p class="card-text">To data from Johns Hopkins University, there were more than 2,800 new deaths reported in
+                     the U.S., which marked its largest single-day increase—topping a previous high set on April 15, when more than 2,
+                    600 deaths were reported.</p>
+          </div>
+      </article>
 
-      <article class="feature-story col">
-        <div>
-          <img src="./images/coronavirus-us.jpg" alt="first img" width="350px">
-          <a href="category">U.S</a>
-        </div>
-        <a><h3>U.S. Had More COVID Deaths in 1 Day Than 36 Countries' Total Deaths</h3></a>
-        <div class="summary"><p>to data from Johns Hopkins University, there were more than 2,800 new deaths reported in
-        the U.S., which marked its largest single-day increase—topping a previous high set on April 15, when more than 2,
-        600 deaths were reported.</p></div>
-      </article>
-      <article class="feature-story col">
-        <div>
-          <img src="./images/warnock-ossoff-georgia.jpg" alt="first img" width="350px">
-          <a href="category">NEWS</a>
-        </div>
-        <a><h3>Georgia Senate Democratic Candidates Hold Small Lead a Month Before Runoffs</h3></a>
-        <div class="summary"><p>Jon Ossoff and Reverend Raphael Warnock hold a tight lead in the polls as President Donald Trump,
-         Vice President Mike Pence, former President Barack Obama and former gubernatorial candidate Stacey Abrams all head
-          into a weekend of campaigning before Georgia's voter registration deadline closes.</p></div>
-      </article>
-      <article class="feature-story col">
-        <div>
-          <img src="./images/trump-mcconnell.jpg" alt="first img" width="350px">
-          <a href="category">POLITICS</a>
-        </div>
-        <a><h3>Trump Supports McConnell's Stimulus, Despite 'Go Big' Call Before Election</h3></a>
-        <div class="summary"><p>to data from Johns Hopkins University, there were more than 2,800 new deaths reported in the
-         U.S., which marked its largest single-day increase—topping a previous high set on April 15, when more than 2,600
-         deaths were reported.</p></div>
-       </article>
-       <article class="feature-story col">
-         <div>
-           <img src="./images/vaccines.we.jpg" alt="first img" width="350px">
-           <a href="category">OPINION</a>
-         </div>
-         <a href=""><h3>We Already Paid for the COVID Vaccine, With Our Taxes. Set it Free.</h3></a>
-         <div class="summary"><p>Vaccines will have zero effectiveness for those who won't have access them or won't be able to
-         afford them—which is bad enough. But this will also endanger the rest of us. We need a People's Vaccine.</p>
-        </div>
-       </article>
-       <article class="feature-story col">
-         <div>
-           <img src="./images/eric-garcetti-la-press-briefing-march-2020.jpg" alt="first img" width="350px">
+      <article class="card">
+          <img src="./images/warnock-ossoff-georgia.jpg" class="card-img-top" alt="first img" width="350px">
            <a href="category">NEWS</a>
-         </div>
-         <a><h3>Eric Garcetti's L.A. Stay-At-Home Order Blasted By Californians</h3></a>
-         <div class="summary"><p>The mayor's latest lockdown order came as the total confirmed cases in Los Angeles surpassed
-           414,500.</p></div>
+             <div clas= "card-body">
+                <h3 class="card-title"><a>Georgia Senate Democratic Candidates Hold Small Lead a Month Before Runoffs</a></h3>
+                 <p class="card-text">Jon Ossoff and Reverend Raphael Warnock hold a tight lead in the polls as President Donald Trump,
+                 Vice President Mike Pence, former President Barack Obama and former gubernatorial candidate Stacey Abrams all head
+                 into a weekend of campaigning before Georgia's voter registration deadline closes.</p>
+              </div>
+              </article>
+
+      <article class="card">
+          <img src="./images/trump-mcconnell.jpg" class="card-img-top" alt="first img" width="350px">
+            <a href="category">POLITICS</a>
+              <div class= "card-body">
+               <h3 class="card-title"><a>Trump Supports McConnell's Stimulus, Despite 'Go Big' Call Before Election</a></h3>
+               <p class="card-text">to data from Johns Hopkins University, there were more than 2,800 new deaths reported in the
+                 U.S., which marked its largest single-day increase—topping a previous high set on April 15, when more than 2,600
+                 deaths were reported.</p>
+            </div>
+       </article>
+       
+       <article class="card">
+           <img src="./images/vaccines.we.jpg" class="card-img-top" alt="first img" width="350px">
+            <a href="category">OPINION</a>
+            <div class= "card-body">
+               <h3 class="card-title"><a>We Already Paid for the COVID Vaccine, With Our Taxes. Set it Free.</h3></a>
+               <p class="card-text">Vaccines will have zero effectiveness for those who won't have access them or won't be able to
+               afford them—which is bad enough. But this will also endanger the rest of us. We need a People's Vaccine.</p>
+             </div>
          </article>
-       </section>
+
+       <article class="card">
+           <img src="./images/eric-garcetti-la-press-briefing-march-2020.jpg" class="card-img-top" alt="first img" width="350px">
+           <a href="category">NEWS</a>
+           <div clas= "card-body">
+              <h3 class="card-title">Eric Garcetti's L.A. Stay-At-Home Order Blasted By Californians</a></h3>
+              <p class="card-text"><p>The mayor's latest lockdown order came as the total confirmed cases in Los Angeles surpassed
+              414,500.</p>
+            </div>
+          </article>
+      </div>
+    </section>
+
 
        <section  class="col 2 sec-2">
          <h3>TOP STORY</h3>

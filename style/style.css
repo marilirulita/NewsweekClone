@@ -25,6 +25,16 @@ nav ul a:hover {
   width: 150px;
   height: 45px;
 }
+
+.first-button {
+  width: 100px;
+  height: 20px;
+  font-size: 13px;
+  font-family: Roboto Condensed;
+  padding: 3px 4px 4px;
+  margin-bottom: 0;
+ 
+}
 /*
 .background button {
   font-size: 15px;
