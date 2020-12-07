@@ -27,11 +27,29 @@ nav ul a:hover {
 }
 
 .first-button {
-  width: 100px;
-  height: 20px;
-  font-size: 13px;
+  width: 92px;
+  font-size: 12px;
   font-family: Roboto Condensed;
-  padding: 3px 4px 4px;
+  padding: 0 12px;
+  background-color: #ffe400;
+  letter-spacing: 1px;
+}
+
+.h4 {
+  font-size: 12px;
+  font-weight: bold;
+}
+.h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.img-link {
+  color: red;
+  font-weight: bold;
+  font-size: 15px;
+  margin: -20px 0 0 0;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 /*
 .background button {
@@ -43,9 +61,6 @@ nav ul a:hover {
   visibility: hidden;
 }
 
-.width {
-  width: 100%;
-}
 .sec-1 img,
 .sec-1 img {
   width: 100%;
