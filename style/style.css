@@ -36,8 +36,9 @@ nav ul a:hover {
 }
 
 .h4 {
-  font-size: 12px;
-  font-weight: bold;
+   font-family: Roboto Condensed;
+   color: #03030366;
+   font-size: 16px;
 }
 .h3 {
   font-size: 20px;
@@ -54,7 +55,7 @@ nav ul a:hover {
 
 .title-debate {
   font-family: Roboto Condensed;
-  color: #4e4d4d66;
+  color: #03030366;
   font-size: 16px;
   border-bottom: 4px solid #4e4d4d66;
   padding: 11px 0;
@@ -83,9 +84,24 @@ nav ul a:hover {
 .last-title {
   border-bottom: 4px solid #4e4d4d66;
 }
+.opinion-title {
+  font-family: Roboto Condensed;
+  color: #03030366;
+  font-size: 16px;
+  padding: 11px 0;
+}
+.card-title {
+  font-family: Roboto Condensed;
+  font-weight: bolder;
+  font-size: 16px;
+  color: black;
+  margin-top: 4px;
+}
 
-
-
+.opinion-author {
+  font-family: Roboto Condensed;
+  font-size: 14px;
+  font-weight: #555555;
 }
 /*
 .background button {
